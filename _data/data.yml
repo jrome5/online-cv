@@ -72,6 +72,8 @@ education:
           - Comprehensive training in control systems, SLAM, and manipulation
 
 experiences:
+  title: Experiences
+  info:
     - role: Robotics Consultant
       time: Apr 2023 - Apr 2023
       company: Touchlab Ltd, Edinburgh
