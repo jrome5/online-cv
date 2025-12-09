@@ -3,284 +3,212 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Jack Rome
+    tagline: Robotics Engineer & PhD Researcher
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    # Sidebar links
+    email: jack.rome@hotmail.co.uk
+    phone: +44 7487476819
+    website: jrome5.github.io/online-cv #do not add http://
+    linkedin: jack-rome598
+    github: jrome5
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+    languages:
+      - idiom: English
+        level: Native
 
-    - idiom: French
-      level: Professional
+    interests:
+      - item: 3D Printing & Additive Manufacturing
+        link:
 
-    - idiom: Spanish
-      level: Professional
+      - item: Robotics & AI Research
+        link:
 
-  interests:
-    title: Interests
-    info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
-
+      - item: Open Source Development
+        link:
 
 career-profile:
-  title: Career Profile
-  summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    title: Summary
+    summary: |
+      Robotics Engineer and PhD researcher with a proven track record in robotic systems 
+      development, perception, and control, across industry and academia. Experienced in 
+      reinforcement learning, robotic simulation, and deployment on real-world platforms 
+      (UR10, Franka). Skilled in bridging theory and application in robotics research and 
+      development, with hands-on expertise in ROS, C++, Python, Unity, Blender, 3D printing 
+      and 3D modelling, and machine learning for embodied intelligence.
+
 education:
-  title: Education
-  info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - degree: PhD in Robotics
+      university: University of Edinburgh
+      time: Jan 2022 - Present
+      details: |
+        Developing real-time, generalisable reinforcement learning methods for cloth 
+        manipulation and deploying them on Franka, UR10, and Baxter robots. 
+        
+          - Contributing to multiple research papers and public demonstrations
+          - Focus on learning-based deformable object manipulation
+          - Zero-shot sim-to-real transfer of learned policies
+          
+    - degree: MEng Robotics, Autonomous and Interactive Systems
+      university: Heriot-Watt University
+      time: Sept 2015 - Jun 2020
+      details: |
+        Awarded with Distinction. Focused on practical robotics, embedded systems, 
+        and image processing.
+        
+          - Research project on Monte Carlo Tree Search for Connect-4 (90% grade)
+          - Comprehensive training in control systems, SLAM, and manipulation
 
 experiences:
-  title: Experiences
-  info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
-    details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+    - role: Robotics Consultant
+      time: Apr 2023 - Apr 2023
+      company: Touchlab Ltd, Edinburgh
+      details: |
+        Contributed to the deployment of ROS-based robotic systems for industrial applications.
 
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - role: Robotics Engineer
+      time: Oct 2020 - Aug 2021
+      company: Sonomatic Ltd, Aberdeen
+      details: |
+        Responsible for robotics R&D for on-land and underwater inspection robots.
+        
+          - Built localisation, control, and navigation stack for custom robot systems
+          - Lead contributor for end-to-end robot pipeline from simulation to real-world deployment
+          - Developed solutions for challenging inspection environments
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    - role: Software Engineer Intern
+      time: Jun 2019 - Jun 2020
+      company: FiveAI, Edinburgh
+      details: |
+        Worked on data visualization and validation tools for autonomous driving systems.
+        
+          - Developed tools to visualise and validate navigation algorithms in urban environments
+          - Implemented features in Python and C++ for robotic software stack
+          - Contributed to autonomous vehicle perception pipeline
+
+    - role: Robotics Engineer
+      time: Jan 2019 - May 2019
+      company: Ziva, Edinburgh
+      details: |
+        Prototyped custom field-robotics unit with focus on simulation and localisation.
+        
+          - Built simulation environment for custom robot platform
+          - Developed localisation stack for outdoor robotics applications
+
+    - role: Lab Assistant
+      time: Jan 2019 - May 2019
+      company: Heriot-Watt University, Edinburgh
+      details: |
+        Supported undergraduate robotics labs with setup, tutorials, and troubleshooting.
+
+    - role: Research Intern
+      time: Jul 2018 - Sep 2018
+      company: Heriot-Watt University, Edinburgh
+      details: |
+        Prototyped motion-tracking system with depth camera and IMU fusion.
+        
+          - Worked with satellite concepts and simulation to iteratively improve design
+          - Developed sensor fusion algorithms for accurate tracking
 
 projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    title: Research & Engineering Projects
+    intro: >
+      Selected projects demonstrating expertise in robotics manipulation, perception, 
+      simulation, and machine learning.
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    assignments:
+      - title: Learning-Based Cloth Manipulation (PhD Research)
+        link: 
+        tagline: "Developed RL methods for cloth unfolding using DreamerV2/SAC with contrastive 
+        encoders and surface-normal vision. Implemented in Unity–ObiCloth/Blender simulation 
+        with zero-shot transfer to Franka and UR10 robots."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Click to Grasp
+        link: "https://tsagkas.github.io/click2grasp/"
+        tagline: "Implemented manipulation and control components for zero-shot grasping using 
+        visual diffusion descriptors. Validated system on real robot platforms (IROS 2024)."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Robotic Perception & Calibration Tools
+        link: 
+        tagline: "Built OpenCV RGB-D calibration pipelines and Dockerized ROS/ROS2 vision stacks 
+        for Realsense and ZED2 cameras. Developed VR teleoperation interfaces for intuitive 
+        robot control."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 3D Printing & Additive Manufacturing
+        link: 
+        tagline: "Extensive experience with SLA and FDM 3D printing, laser engraver conversion, 
+        Klipper firmware upgrades, and custom mechanical design for robotics applications."
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Hobby Robotics & Game AI
+        link: 
+        tagline: "Built custom robots and manipulation systems. Implemented MCTS for Connect-4 
+        achieving 90% grade. Regular Advent of Code participant and tool developer."
 
 publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+    title: Publications
+    intro: |
+      Peer-reviewed publications in top-tier robotics conferences and journals.
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+    papers:
+      - title: "ReLiC: Reward-Linked Contrastive Encoders for Off-Policy RL"
+        link: 
+        authors: Jack Rome, Subramanian Ramamoorthy
+        conference: 2025 (In Review)
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Click to Grasp: Zero-Shot Precise Manipulation via Visual Diffusion Descriptors"
+        link: "https://arxiv.org/abs/2403.14526"
+        authors: Nikolaos Tsagkas, Jack Rome, Subramanian Ramamoorthy, Oisin Mac Aodha, Chris Xiaoxuan Lu
+        conference: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2024"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+      - title: "Learning to Unfold Cloth: Scaling up World Models to Deformable Object Manipulation"
+        link: 
+        authors: Jack Rome, Stephen James, Subramanian Ramamoorthy
+        conference: 2024 (In Review)
 
-      He is a great employee!
+      - title: "A Review of Monte Carlo Tree Search Methods for Combinatorial Games"
+        link: 
+        authors: Jack Rome, Yvan Petillot
+        conference: "Heriot-Watt University, 2020 (Grade: 90%)"
 
 skills:
-  title: Skills &amp; Proficiency
+    title: Technical Skills
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+    toolset:
+      - name: Python
+        level: 95%
 
-  - name: Javascript & jQuery
-    level: 98%
+      - name: C/C++
+        level: 85%
 
-  - name: Angular
-    level: 98%
+      - name: ROS/ROS2
+        level: 90%
 
-  - name: HTML5 & CSS
-    level: 95%
+      - name: Machine Learning (PyTorch/TensorFlow)
+        level: 85%
 
-  - name: Ruby on Rails
-    level: 85%
+      - name: Unity/Blender/Gazebo
+        level: 80%
 
-  - name: Sketch & Photoshop
-    level: 60%
+      - name: Docker & CI/CD
+        level: 75%
+
+      - name: 3D Printing & Manufacturing
+        level: 85%
+
+      - name: Hardware Integration
+        level: 80%
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
