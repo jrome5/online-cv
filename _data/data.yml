@@ -50,6 +50,8 @@ career-profile:
       and 3D modelling, and machine learning for embodied intelligence.
 
 education:
+  title: Education
+  info:
     - degree: PhD in Robotics
       university: University of Edinburgh
       time: Jan 2022 - Present
